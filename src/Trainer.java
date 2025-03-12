@@ -5,13 +5,13 @@ public class Trainer {
         this.name = name;
     }
 
-    public void searchForPokemon(Forest forest, String searchType, String value) {
+    public void searchForPokemon(location location, String searchType, String value) {
         Pokemon foundPokemon = null;
 
         if (searchType.equalsIgnoreCase("name")) {
-            foundPokemon = forest.searchPokemonByName(value);
+            foundPokemon = location.searchPokemonByName(value);
         } else if (searchType.equalsIgnoreCase("type")) {
-            foundPokemon = forest.searchPokemonByType(value);
+            foundPokemon = location.searchPokemonByType(value);
         }
 
         if (foundPokemon != null) {

@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Opret skoven og tilføj Pokémoner
-        Forest forest = new Forest();
+        location forest = new location();
         forest.addPokemon(new Pokemon("Pikachu", "Electric", 10));
         forest.addPokemon(new Pokemon("Charmander", "Fire", 12));
         forest.addPokemon(new Pokemon("Squirtle", "Water", 8));
