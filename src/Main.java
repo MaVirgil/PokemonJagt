@@ -6,6 +6,7 @@ public class Main {
         forest.addPokemon(new Pokemon("Charmander", "Fire", 12));
         forest.addPokemon(new Pokemon("Squirtle", "Water", 8));
         forest.addPokemon(new Pokemon("Bulbasaur", "Grass", 7));
+        forest.addPokemon(new Pokemon("Bulbasaur", "Water", 9));
 
         // Vis alle Pokémoner i skoven
         forest.showAllPokemon();
