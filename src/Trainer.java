@@ -5,7 +5,7 @@ public class Trainer {
         this.name = name;
     }
 
-    public void searchForPokemon(location location, String searchType, String value) {
+    public void searchForPokemon(Location location, String searchType, String value) {
         Pokemon foundPokemon = null;
 
         if (searchType.equalsIgnoreCase("name")) {

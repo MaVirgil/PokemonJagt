@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class location {
+public class Location {
     protected ArrayList<Pokemon> pokemonList = new ArrayList<>();
 
     public void addPokemon(Pokemon pokemon) {

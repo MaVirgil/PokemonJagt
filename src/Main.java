@@ -1,15 +1,23 @@
 public class Main {
     public static void main(String[] args) {
         // Opret skoven og tilføj Pokémoner
-        location forest = new location();
+        Location forest = new Forest();
         forest.addPokemon(new Pokemon("Pikachu", "Electric", 10));
         forest.addPokemon(new Pokemon("Charmander", "Fire", 12));
         forest.addPokemon(new Pokemon("Squirtle", "Water", 8));
         forest.addPokemon(new Pokemon("Bulbasaur", "Grass", 7));
         forest.addPokemon(new Pokemon("Bulbasaur", "Water", 9));
 
+        //opret bjerge og tilføj pokemoner
+        Location mountains = new Mountains();
+        mountains.addPokemon(new Pokemon("Vaporeon", "Water", 13));
+        mountains.addPokemon(new Pokemon("Sylveon", "Fairy", 14));
+
         // Vis alle Pokémoner i skoven
         forest.showAllPokemon();
+
+        //vis alle pokemoner i bjergene
+        mountains.showAllPokemon();
 
         // Opret en træner
         Trainer ash = new Trainer("Ash");
